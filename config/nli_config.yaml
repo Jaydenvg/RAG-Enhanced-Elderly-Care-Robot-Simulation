@@ -1,0 +1,21 @@
+# NLI Configuration
+
+intent_labels:
+  - ask_medication
+  - ask_side_effects
+  - ask_dosage
+  - request_help
+  - health_question
+  - medication_reminder
+  - emergency_alert
+
+confidence_threshold: 0.7
+
+entity_types:
+  - medications
+  - conditions
+  - dosages
+  - times
+
+use_transformer_model: false
+enable_entity_linking: true

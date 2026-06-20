@@ -1,0 +1,19 @@
+# LLM Configuration
+
+model_name: phi-2
+model_path: ./llm_models/phi-2-q4.gguf
+quantization: Q4_K_M
+
+max_tokens: 256
+temperature: 0.7
+top_p: 0.95
+top_k: 40
+repeat_penalty: 1.1
+
+device: cpu
+n_threads: 4
+n_gpu_layers: 0
+
+inference_timeout: 30
+cache_responses: true
+cache_size: 100

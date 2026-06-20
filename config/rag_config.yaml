@@ -1,0 +1,19 @@
+# RAG Configuration
+
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+embedding_dim: 384
+
+chunk_size: 500
+chunk_overlap: 50
+max_chunks_per_file: 100
+
+vector_db_type: chroma
+vector_db_path: ./data/chroma_db
+collection_name: healthcare_kb
+
+top_k_retrieval: 3
+similarity_threshold: 0.6
+max_context_length: 2000
+
+batch_size: 32
+cache_embeddings: true

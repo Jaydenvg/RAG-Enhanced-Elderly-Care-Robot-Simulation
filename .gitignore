@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ROS2
+install/
+build/
+log/
+*.db-shm
+*.db-wal
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LLM Models (large files)
+llm_models/*.gguf
+llm_models/*.bin
+
+# Logs
+data/logs/*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/

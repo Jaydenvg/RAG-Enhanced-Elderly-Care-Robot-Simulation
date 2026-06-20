@@ -1,0 +1,15 @@
+# Robot Configuration
+
+robot_model: turtlebot3_waffle
+robot_ns: /robot
+
+nav2_enabled: true
+navigation_timeout: 30
+
+movegroup_enabled: true
+planning_time: 5
+planning_attempts: 3
+
+use_gazebo: true
+use_rviz: true
+simulation_speed: 1.0
