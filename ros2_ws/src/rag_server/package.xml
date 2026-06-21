@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rag_server</name>
+  <version>1.0.0</version>
+  <description>RAG Server for Elderly Care Robot - Document Loader and Semantic Search</description>
+  <maintainer email="jayden@heriot-watt.ac.uk">Jayden Varghese George</maintainer>
+  <license>Apache License 2.0</license>
+
+  <url type="website">https://github.com/Jaydenvg/RAG-Enhanced-Elderly-Care-Robot-Simulation</url>
+  <author email="jayden@heriot-watt.ac.uk">Jayden Varghese George</author>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>python3-yaml</depend>
+  <depend>python3-pyyaml</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
